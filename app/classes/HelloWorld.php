@@ -9,7 +9,7 @@ class HelloWorld
     public $message;
     public function __construct()
     {
-        $this->message= "Hello World";
+        $this->message= "Hello World Farhad";
 
     }
     public function index()
