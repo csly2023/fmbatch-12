@@ -5,3 +5,5 @@ use App\classes\HelloWorld;
 
 $helloWorld= new HelloWorld();
 $helloWorld->index();
+
+//For vendor file creation comment= composer dump-autoload
