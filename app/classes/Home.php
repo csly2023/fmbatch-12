@@ -6,7 +6,7 @@ namespace App\classes;
 
 class Home
 {
-    public $message, $students=[], $item, $value, $key;
+    public $message, $students=[], $item, $value, $key, $v, $index;
 
     public function __construct()
     {
@@ -78,8 +78,8 @@ class Home
             foreach ($this->item as $this->key=>$this->value){
 //                print_r($this->value);
                 if(is_array($this->value)){
-                    foreach ($this->value as $index=> $v){
-                        echo $index.'='.$v;
+                    foreach ($this->value as $this->index=> $this->v){
+                        echo $this->index.'='.$this->v;
                         echo "<br>";
                     }
                 }else{
