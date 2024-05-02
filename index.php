@@ -7,8 +7,8 @@ use App\classes\Home;
 //$helloWorld= new HelloWorld();
 //$helloWorld->index();
 
-$home= new Home();
-$home->index();
+$helloworld= new HelloWorld();
+$helloworld->index();
 
 
 

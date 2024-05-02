@@ -7,135 +7,81 @@ namespace App\classes;
 class HelloWorld
 {
     public $message;
-    public $firstName="BITM";
-    public $secondName="BASIS";
-
-    public $firstNumber;
-    public $secondNumber;
-    public $thirdNumber;
     public $x;
     public $y;
+    public $z;
+    public $data = [];
+
+    public $firstName = "Rofik";
+    public $lastName = "Khan";
+    public $products = [];
+
     public function __construct()
     {
-        $this->message= "Hello World Farhad";
-//        $this->firstNumber=20;
-//        $this->secondNumber=30;
-
-        $this->x=40;
-        $this->y=50;
-        $this->z=60;
-
-
-
-
+        $this->message = "Hello World Farhad";
     }
+
     public function index()
     {
-//        echo $this->firstName.' &nbsp &nbsp &nbsp'.$this->secondName;
+        return view('home');
+//        echo $this->message;
+//        $this->data =[10, 20, 30, 'Basis', 'bitm', 10.25, true];
+//        echo $this->data[4];
 
-//        echo $this->thirdNumber=$this->firstNumber+$this->secondNumber;
-//        echo '<br/>';
-//
-//        echo $this->thirdNumber=$this->firstNumber-$this->secondNumber;
-//        echo '<br/>';
-//
-//        echo $this->thirdNumber=$this->firstNumber*$this->secondNumber;
-//        echo '<br/>';
-//
-//        echo $this->thirdNumber=$this->firstNumber/$this->secondNumber;
-//        echo '<br/>';
-//
-//        echo $this->thirdNumber=$this->firstNumber%$this->secondNumber;
-//        echo '<br/>';
-
-//        echo '<br>';
-//        echo $this->firstNumber++;
-//        echo '<br>';
-//        echo $this->firstNumber;
-//        echo '<br>';
-//        echo $this->firstNumber;
-
-//        echo '<br>';
-//        echo $this->x+=$this->y;
-//        echo '<br>';
-//        echo $this->x-=$this->y;
-//        echo '<br>';
-//        echo $this->x*=$this->y;
-//        echo '<br>';
-//        echo $this->x/=$this->y;
-//        echo '<br>';
-//        echo $this->x%=$this->y;
-//        echo '<br>';
-//        echo $this->x .=$this->y;
-//        echo '<br>';
-
-
-        echo '<br>';
-//        echo ($this->x < $this->y) && ($this->y < $this->z);
-//        echo '<br>';
-//        echo ($this->x > $this->y) && ($this->y > $this->z);
-//        echo '<br>';
-//        echo ($this->x < $this->y) && ($this->y < $this->z);
-//        echo '<br>';
-//        echo ($this->x < $this->y) && ($this->y > $this->z);
-//        echo '<br>';
-//        echo ($this->x > $this->y) && ($this->y < $this->z);
-
-
-$this->x =100;
-$this->y =100;
-$this->z =$this->x+$this->y;
-//
-//if($this->x > $this->y){
-//    echo $this->z;
-//}
-//elseif ($this->y < $this->z){
-//    echo "hello php";
-//}
-//elseif ($this->z > $this->x){
-//    echo "hello bitm";
-//}
-//else{
-//    echo "Hello Laravel";
-//}
-
-
-//switch ($this->x){
-//    case 100:
-//        echo "hello world";
-//        break;
-//
-//    case 200:
-//        echo "hello bangladesh";
-//        break;
-//
-//    case 300:
-//        echo "hello bitm";
-//        break;
-//
-//    default:
-//        echo "hello php";
-//}
-
-//        for ($this->x=15; $this->x>=7; $this->x--){
-//            echo $this->x;
-//            echo "<br>";
+//        foreach ($this->data as $index=> $item){
+//            echo $index.' '.$item.'<br> ';
 //        }
 
-//        $this->x=15;
-//        while ($this->x<20){
-//            echo $this->message;
-//            $this->x++;
+//        $this->product = [
+//            'name' => 'Football',
+//            'price' => 1500,
+//            'description' => 'Nice football'];
+//        echo $this->product['name'];
+
+//        $this->products = [
+//            0 => [
+//                'name' => 'Football',
+//                'price' => [
+//                    'regular_price' => 4500,
+//                    'selling_price' => 4000,
+//                ],
+//                'description' => 'Nice football',
+//                'image' => 'football.jpg'
+//            ],
+//            1 => [
+//                'name' => 'T Shirt',
+//                'price' => [
+//                    'regular_price' => 3500,
+//                    'selling_price' => 3000,
+//                ],
+//                'description' => 'Nice T Shirt',
+//                'image' => 'shirt.jpg'
+//            ],
+//            2 => [
+//                'name' => 'Mobile',
+//                'price' => [
+//                    'regular_price' => 55500,
+//                    'selling_price' => 485000,
+//                ],
+//                'description' => 'Nice Mobile',
+//                'image' => 'mobile.jpg'
+//            ],
+//        ];
+
+
+//        foreach ($this->products as $product) {
+////            echo $product['name'].' '.$product['price'].' '.$product['description'].' <br>';
+//
+//            foreach ($product as $item) {
+//                if (is_array($item)){
+//                    foreach ($item as $value){
+//                        echo $value.' ';
+//                    }
+//                }else
+//                echo $item . ' ';
+//            }
+//            echo '<br>';
 //        }
-
-        $this->x=15;
-        do{
-            echo $this->message;
-            $this->x++;
-        }
-        while($this->x<17);
-
-
 
 
     }
