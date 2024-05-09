@@ -1,0 +1,43 @@
+h1{
+    background-color: darkred;
+    color: white;
+}
+
+.div-one{
+    height: 200px;
+    width: 20%;
+    background-color: aquamarine;
+    float: left;
+}
+.div-two{
+    height: 200px;
+    width: 80%;
+    background-color: black;
+    float: left;
+}
+.div-three{
+    height: 80px;
+    width: 100%;
+    background-color: gray;
+    float: left;
+}
+
+.div-four{
+    height: 200px;
+    width: 20%;
+    background-color: orange;
+    float: left;
+}
+.div-five{
+    height: 200px;
+    width: 80%;
+    background-color: black;
+    float: left;
+}
+
+.div-six{
+    height: 80px;
+    width: 100%;
+    background-color: darkgreen;
+    float: left;
+}

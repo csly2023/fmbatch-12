@@ -15,5 +15,17 @@ class Home
         $this->blog = new Blog();
         $this->blogs = $this->blog->getAllBlog();
         return view('home', ['blogs' => $this->blogs]);
+
     }
+
+    public function about()
+    {
+        return view('about');
+    }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
 }
