@@ -2,14 +2,14 @@
 
 <?php foreach ($blogs as $blog) { ?>
 
+<div>
+    <img src="<?php echo $blog['image'] ?>" alt="1" width="300">
     <div>
-        <img src="<?php echo $blog['image'] ?>" alt="1" width="300">
-        <div>
-            <h1><?php echo $blog['title'] ?></h1>
-            <p><?php echo $blog['description'] ?></p>
-            <a href="#">Read More</a>
-        </div>
+        <h1><?php echo $blog['title'] ?></h1>
+        <p><?php echo $blog['description'] ?></p>
+        <a href="#">Read More</a>
     </div>
+</div>
 <?php } ?>
 
 <br><br><br>
