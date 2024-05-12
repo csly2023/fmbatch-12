@@ -11,8 +11,26 @@
 <body>
 
 
-<ul>
-    <li><a href="action.php?page=home&&name=bitm">Home Page</a></li>
-    <li><a href="action.php?page=about">About Page</a></li>
-    <li><a href="action.php?page=contact">Contact Page</a></li>
-</ul>
+<header class="bg-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-3 h-200">Logo</div>
+            <div class="col-9 h-200">Banner</div>
+        </div>
+    </div>
+</header>
+
+<nav class="bg-darkseagreen">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 h-50">
+                <ul class="menu">
+                    <li><a href="action.php?page=home&&name=bitm">Home Page</a></li>
+                    <li><a href="action.php?page=about">About Page</a></li>
+                    <li><a href="action.php?page=contact">Contact Page</a></li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</nav>
