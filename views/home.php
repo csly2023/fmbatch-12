@@ -5,8 +5,8 @@
 <div>
     <img src="<?php echo $blog['image'] ?>" alt="1" width="300">
     <div>
-        <h1><?php echo $blog['title'] ?></h1>
-        <p><?php echo $blog['description'] ?></p>
+        <h1 class="test"><?php echo $blog['title'] ?></h1>
+        <p class=".test"><?php echo $blog['description'] ?></p>
         <a href="#">Read More</a>
     </div>
 </div>
