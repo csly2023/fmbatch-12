@@ -20,5 +20,9 @@ if (isset($_GET['page']))
     {
         $home->contact();
     }
+    elseif ($_GET['page'] == 'detail')
+    {
+        $home->detail($_GET['id']);
+    }
 }
 
